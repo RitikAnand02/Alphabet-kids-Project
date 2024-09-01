@@ -1,0 +1,48 @@
+#title-box{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    
+}
+#title-box i{
+    font-size: 80px;
+    color: #ddd;
+}
+#title{   
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 80PX;
+}
+#container{       
+width: 70%;
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+margin: 0 auto;
+}
+@media(min-width: 360px){
+    
+    #container{
+        display: flex;
+         flex-wrap: wrap;
+   }  
+
+}
+#app-btn{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 8px;
+}
+#app-btn button{
+    border: 1px solid#0CCBF7;
+    padding: 30px;
+    font-size:24px;
+    border-radius: 8px;
+
+}      
+ #app-btn button:hover{
+    background-color:#B14D01;
+    color: white;
+    cursor: pointer;
+}
